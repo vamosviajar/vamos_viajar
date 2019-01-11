@@ -1,2 +1,2 @@
-# glayce_passeios
-Site estático de passeios de Glayce
+# Seu Passeio
+Site estático da empresa de passeios Seu Passeio
