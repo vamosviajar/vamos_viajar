@@ -593,7 +593,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* ==================================================
-  Portfolio Styling
+  Agenda Mensal
   ================================================== */
 .portfolio {
   background-color: #edf6ff;
@@ -664,7 +664,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* ==================================================
-  Team Styling
+  Próximos passeios
   ================================================== */
 .team h2 {
   color: #2ecc99;
@@ -763,7 +763,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* ==================================================
-  Contact Section
+  Pagamento
+  ================================================== */
+
+
+/* ==================================================
+  Contato
   ================================================== */
 #contact {
   background: #f7f7f7;
