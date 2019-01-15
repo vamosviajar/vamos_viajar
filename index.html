@@ -38,16 +38,23 @@
 </head>
 
 <body>
- <!-- Load Facebook SDK for JavaScript -->
+<!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- Your customer chat code -->
 <div class="fb-customerchat"
   attribution=setup_tool
   page_id="362061191014864"
   theme_color="#44cc93"
-  logged_in_greeting="Olá. Como podemos ajudar?"
-  logged_out_greeting="Olá. Como podemos ajudar?">
+  logged_in_greeting="Olá! Como podemos te ajudar?"
+  logged_out_greeting="Olá! Como podemos te ajudar?">
 </div>
 
   <!-- Header -->
@@ -454,15 +461,6 @@
   <script src="js/custom.js"></script>
 
   <script src="contactform/contactform.js"></script>
-
-  <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
 </body>
 
 </html>
