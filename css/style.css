@@ -41,6 +41,7 @@ a {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  /* color: #33a4ff; */
 }
 
 /* ==================================================
@@ -100,7 +101,7 @@ a:hover {
   height: 42px;
   border-radius: 50%;
   background: #2ecc99;
-  color: #fff;
+  color: #fff !important;
   text-align: center;
   font-size: 24px;
 }
@@ -164,7 +165,7 @@ a:hover {
   Header Styling
 ================================================== */
 #header {
-  background: #2ecc99;
+  background: #000000;
   height: 70px;
 }
 
@@ -216,11 +217,11 @@ a:hover {
 #header .social-nav a {
   font-size: 24px;
   margin-left: 15px;
-  color: #fff;
+  color: #44cc93;
 }
 
 #header .social-nav a:hover {
-  color: rgba(255, 255, 255, 0.75);
+  color: #33a4ff;
 }
 
 /*--------------------------------------------------------------
@@ -298,7 +299,7 @@ a:hover {
   padding: 22px 15px 18px 15px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: #44cc93;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -306,7 +307,7 @@ a:hover {
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: rgba(255, 255, 255, 0.75);
+  color: #33a4ff;
 }
 
 .nav-menu ul {
@@ -596,7 +597,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Agenda Mensal
   ================================================== */
 .portfolio {
-  background-color: #edf6ff;
+  background-color: #ffffff;
   padding-bottom: 0;
 }
 
@@ -662,6 +663,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: 1;
   visibility: visible;
 }
+
+
 
 /* ==================================================
   Próximos passeios
@@ -762,6 +765,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #999;
 }
 
+
+
 /* ==================================================
   Pagamento
   ================================================== */
@@ -840,7 +845,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #0c6e8b;
+  background: #33a4ff;
 }
 
 /* ==================================================
@@ -904,6 +909,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .site-footer .credits a {
   color: #2ecc99;
+}
+
+.site-footer .credits :hover{
+  color: #33a4ff;
 }
 
 #verySmall{
