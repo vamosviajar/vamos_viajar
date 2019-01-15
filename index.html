@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR" manifest="example.appacache">
+<html lang="pt-BR">
 
 <head>
   <meta charset="utf-8">
@@ -36,7 +36,7 @@
   ======================================================= -->
 </head>
 
-<body> 
+<body>
 
   <!-- Header -->
   <header id="header">
@@ -48,9 +48,9 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="#proximospasseios">Próximos passeios</a></li>
+          <li><a href="index.html">Página Inicial</a></li>
           <li><a href="#facilidadesparavoce">Facilidade</a></li>
-          <li><a href="#contact">Fale conosco</a></li>
+          <li><a href="index.html#contact">Fale conosco</a></li>
           <li><a href="passeios.html">Agenda, detalhes e outras informações</a></li>
         </ul>
       </nav>
@@ -60,7 +60,8 @@
         <a href="#"><i class="fab fa-facebook-f"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>
         <a href="#"><i class="fab fa-whatsapp"></i></a>
-        <a href="mailto:falecomvamosviajar@gmail.com?subject=Olá! Estou interessado nos passeios." target="_top"><i class="far fa-envelope"></i></a>
+        <a href="mailto:falecomvamosviajar@gmail.com?subject=Olá! Estou interessado nos passeios." target="_top"><i
+            class="far fa-envelope"></i></a>
       </nav>
     </div>
   </header>
@@ -333,7 +334,10 @@
 
             <div>
               <i class="fa fa-envelope"></i>
-              <a href="mailto:falecomvamosviajar@gmail.com?subject=Olá! Gostaria de maiores informações sobre os passeios." target="_top"><p>falecomvamosviajar@gmail.com</p></a>
+              <a href="mailto:falecomvamosviajar@gmail.com?subject=Olá! Gostaria de maiores informações sobre os passeios."
+                target="_top">
+                <p>falecomvamosviajar@gmail.com</p>
+              </a>
             </div>
 
             <div>
@@ -383,7 +387,7 @@
     </div>
   </section>
 
-  
+
 
   <footer class="site-footer">
     <div class="bottom">
@@ -392,11 +396,6 @@
 
           <div class="col-lg-6 col-xs-12 text-lg-left text-center">
             <div class="credits">
-              <!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-              -->
               Desenvolvido por <a href="https://www.lucassdr.com.br/" target="_blank">www.lucassdr.com.br</a>
               <br>
               <small id="verySmall">Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a></small>
@@ -413,23 +412,19 @@
     </div>
   </footer>
   <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  <div id="fb-root"></div>
+  <script>(function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="362061191014864"
-  theme_color="#44cc93"
-  logged_in_greeting="Olá! Como podemos te ajudar?"
-  logged_out_greeting="Olá! Como podemos te ajudar?">
-</div>
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat" attribution=setup_tool page_id="362061191014864" theme_color="#44cc93"
+    logged_in_greeting="Olá! Como podemos te ajudar?" logged_out_greeting="Olá! Como podemos te ajudar?">
+  </div>
 
 
   <!-- Required JavaScript Libraries -->
