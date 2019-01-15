@@ -1,2 +1,2 @@
-# glayce_passeios
-Site estático de passeios de Glayce
+# Repositório de desenvolvimento da Vamos Viajar!
+Site estático.
