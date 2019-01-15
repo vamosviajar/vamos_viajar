@@ -1,2 +1,2 @@
-# Seu Passeio
-Site estático da empresa de passeios Seu Passeio
+# Vamos Viajar! passeios.
+Site estático da empresa de passeios Vamos Viajar!
