@@ -47,28 +47,24 @@
 </head>
 
 <body>
-   
-<script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId      : '884420435096672',
-        cookie     : true,
-        xfbml      : true,
-        version    : 'v3.2'
-      });
-        
-      FB.AppEvents.logPageView();   
-        
-    };
-  
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "https://connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
-  </script>
+    <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_PT/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="362061191014864"
+  theme_color="#2ecc99"
+  logged_in_greeting="Olá! Que tal escolher seu passeio ou viagem agora mesmo? "
+  logged_out_greeting="Olá! Que tal escolher seu passeio ou viagem agora mesmo? ">
+</div>
 
   <!-- Header -->
   <header id="header">
@@ -442,24 +438,6 @@
     </div>
   </footer>
   <!-- <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a> -->
-  <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/pt_PT/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="362061191014864"
-  theme_color="#2ecc99"
-  logged_in_greeting="Olá! Que tal escolher seu passeio ou viagem agora mesmo? "
-  logged_out_greeting="Olá! Que tal escolher seu passeio ou viagem agora mesmo? ">
-</div>
 
 
   <!-- Required JavaScript Libraries -->
