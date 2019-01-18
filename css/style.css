@@ -5,7 +5,7 @@
     Author URL: https://bootstrapmade.com
 */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #000;
 }
 
@@ -768,6 +768,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 .row.justify-content-md-center {
   margin-right: 0px;
 }
+
+.recuo { 
+  text-indent:4em;
+}
+
+.semponto {
+ list-style-type: none !important;
+}
+
 
 
 
