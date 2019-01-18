@@ -777,7 +777,9 @@ body.mobile-nav-active #mobile-nav-toggle {
  list-style-type: none !important;
 }
 
-
+.infotextocentro{
+  text-align: center;
+}
 
 
 /* ==================================================
