@@ -1025,13 +1025,3 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-right: 30px;
   }
 }
-
-.footerFix {
-  position: fixed;
-  bottom: 10px;
-  right: 5px;
-  width: 55px;
-  height: 55px;
-  right: 20px;
-  z-index: 999999999999;
-}
